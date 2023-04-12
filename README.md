@@ -1,4 +1,4 @@
-# portiflio-website-using-bootstrap
+
 # :green_book: Table of Contents
 - [:book: About the Project](#about-project)
   - [:hammer_and_wrench: Built With](#built-with)
@@ -38,7 +38,7 @@
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML5</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-    <li><a https://getbootstrap.com/docs/5.0/getting-started/introduction/>Bootsrap</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootsrap</a></li>
   </ul>
 </details>
 ### Key Features <a name="key-features"></a>
@@ -86,13 +86,13 @@ Install this project with:git and npm install
 :bust_in_silhouette: **Juan Carlos Muñoz**
 
 - GitHub: [Betel Andarge](https://github.com/beteland123), [Juan Carlos Muñoz](https://github.com/jcmunav63)
-- Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223), [Juan Carlos Muñoz] (https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-bbb26b7a/)
+- Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223), [Juan Carlos Muñoz](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-bbb26b7a/)
 
 
 
 ## :telescope: Future Features <a name="future-features"></a>
 
-- [ ] I will  add the webpage for refrall links
+- [ ] We will  add the webpage for refrall links
 - [ ] Add some animation
 
 
