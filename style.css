@@ -1,3 +1,8 @@
 span {
   color: #1717a1;
 }
+
+body {
+  background-image: url("/images/bg-header.png");
+  background-repeat: no-repeat;
+}
