@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portiflio website using bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <link href="style.css" rel="stylesheet">
-    
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="container-fluid">
-
-    
-    <nav class="navbar navbar-expand-md navbar-dark text-primary " >
-        <a class="navbar-brand text-primary" href="#" >My logo</a>
+      <nav class="navbar navbar-expand-md navbar-dark text-primary">
+        <a class="navbar-brand text-primary" href="#">My logo</a>
 
         <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
-          <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true"></i></span>
+        <button
+          class="navbar-toggler justify-content-end"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="" role="button"
+            ><i class="fa fa-bars" aria-hidden="true"></i
+          ></span>
         </button>
-      
+
         <!-- Navbar links -->
-        <div class="collapse navbar-collapse justify-content-end text-primery" id="collapsibleNavbar" >
-          <ul class="navbar-nav justify-content-end"  >
+        <div
+          class="collapse navbar-collapse justify-content-end text-primery"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav justify-content-end">
             <li class="nav-item" text-right>
-              <a class="nav-link text-primary" href="works" text-primery>Portfolio</a>
+              <a class="nav-link text-primary" href="works" text-primery
+                >Portfolio</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-primary" href="#">About</a>
@@ -37,144 +52,281 @@
             </li>
           </ul>
         </div>
-    </nav>
-    <div class="container-fluid ml-2" id="headline" >
-    <div class="container-fluid p-5 w-50">
-      <h1 class="text-dark fw-bolder">I'm BetelAnd! Glad to see you!</h1>
-      <p class="text-primary">I'm a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-      <p class="text-primary">LET'S CONNECT</p>
-      <ul class="list-group list-group-horizontal">
-        <li class="list-group-item list-group-item border-0">
-            <img src="/images/twitter.png" alt="Twitter">
-        </li>
-        <li class="list-group-item list-group-item border-0">
-            <img alt="Linkedin" src="/images/linkedin.png">
-        </li>
-        <li class="list-group-item list-group-item border-0">
-            <img alt="Medium" src="/images/m.png">
-        </li>
-        <li class="list-group-item list-group-item border-0">
-            <img alt="Github" src="/images/github.png">
-        </li>
-        <li class="list-group-item list-group-item border-0">
-            <img alt="Twitter" src="/images/sign.png">
-        </li>
-      </ul>
+      </nav>
 
+      <div class="container-fluid card p-5 has-bg-img" rounded>
+        <img src="/images/bg-header.png" alt class="bg-img" />
+        <div class="card-img-overlay text-center mt-5">
+          <h1 class="text-dark fw-bolder">I'm BetelAnd! Glad to see you!</h1>
+          <p class="text-primary">
+            I'm a software developer! I can help you build a product, feature or
+            website. Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
+          </p>
+          <p class="text-primary">LET'S CONNECT</p>
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item border-0">
+              <img src="/images/twitter.png" alt="Twitter" />
+            </li>
+            <li class="list-group-item list-group-item border-0">
+              <img alt="Linkedin" src="/images/linkedin.png" />
+            </li>
+            <li class="list-group-item list-group-item border-0">
+              <img alt="Medium" src="/images/m.png" />
+            </li>
+            <li class="list-group-item list-group-item border-0">
+              <img alt="Github" src="/images/github.png" />
+            </li>
+            <li class="list-group-item list-group-item border-0">
+              <img alt="Twitter" src="/images/sign.png" />
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+
       <div class="container-fluid mt-5" id="cards">
-        <div class="row m no-gutters">
-              <div class="col-md-6 border-0" > 
-                <img src="/images/job4b.png" class="card-img-top " alt="Job 1">
+        <div class="card bg-white m">
+          <div class="card-body">
+            <div class="row m no-gutters">
+              <div class="col-md-6 border-0">
+                <img src="/images/job4b.png" class="card-img-top" alt="Job 1" />
               </div>
-              <div class="col-md-6  border-0">
-                <div  class="card border-0">
-       
-                     <h2 class="card-title">Tonic</h2>
-                   <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item list-group-item border-0 fw-bolder">CANOPY</li>
-                    <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li>
-                    <li class="list-group-item list-group-item border-0">Back End Dev</li>
-                    <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li> 
-                    <li class="list-group-item list-group-item border-0">2015</li>
+              <div class="col-md-6 border-0">
+                <div class="card border-0">
+                  <h2 class="card-title">Tonic</h2>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item border-0 fw-bolder"
+                    >
+                      CANOPY
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      Back End Dev
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      2015
+                    </li>
                   </ul>
-                  <p class="text-primary"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                  <ul class="list-group list-group-horizontal" >
-                    <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">html</li>
-                    <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">css</li>
-                    <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">javascript</li>
+                  <p class="text-primary">
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      html
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      css
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      javascript
+                    </li>
                   </ul>
-                  <button type="button" class="btn btn-outline-primary w-25 m">See project</button>
-
+                  <button type="button" class="btn btn-outline-primary w-25 m">
+                    See project
+                  </button>
                 </div>
-           </div>
-        </div>
-        <div class="row m no-gutters">
-            <div class="col-md-6 border-0 order-md-2" > 
-              <img src="/images/job4b.png" class="card-img-top " alt="Job 1">
-            </div>
-            <div class="col-md-6  border-0">
-              <div  class="card border-0">
-     
-                   <h2 class="card-title">Tonic</h2>
-                 <ul class="list-group list-group-horizontal">
-                  <li class="list-group-item list-group-item border-0 fw-bolder">CANOPY</li>
-                  <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li>
-                  <li class="list-group-item list-group-item border-0">Back End Dev</li>
-                  <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li> 
-                  <li class="list-group-item list-group-item border-0">2015</li>
-                </ul>
-                <p class="text-primary"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                <ul class="list-group list-group-horizontal" >
-                  <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">html</li>
-                  <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">css</li>
-                  <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">javascript</li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary w-25 m">See project</button>
-
               </div>
-         </div>
-      </div>
-      <div class="row m no-gutters">
-        <div class="col-md-6 border-0 " > 
-          <img src="/images/job4b.png" class="card-img-top " alt="Job 1">
-        </div>
-        <div class="col-md-6  border-0">
-          <div  class="card border-0">
- 
-               <h2 class="card-title">Tonic</h2>
-             <ul class="list-group list-group-horizontal">
-              <li class="list-group-item list-group-item border-0 fw-bolder">CANOPY</li>
-              <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li>
-              <li class="list-group-item list-group-item border-0">Back End Dev</li>
-              <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li> 
-              <li class="list-group-item list-group-item border-0">2015</li>
-            </ul>
-            <p class="text-primary"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="list-group list-group-horizontal" >
-              <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">html</li>
-              <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">css</li>
-              <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">javascript</li>
-            </ul>
-            <button type="button" class="btn btn-outline-primary w-25 m">See project</button>
-
+            </div>
           </div>
-     </div>
-  </div>
-  <div class="row m no-gutters">
-    <div class="col-md-6 border-0 order-md-2" > 
-      <img src="/images/job4b.png" class="card-img-top " alt="Job 1">
-    </div>
-    <div class="col-md-6  border-0">
-      <div  class="card border-0">
-
-           <h2 class="card-title">Tonic</h2>
-         <ul class="list-group list-group-horizontal">
-          <li class="list-group-item list-group-item border-0 fw-bolder">CANOPY</li>
-          <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li>
-          <li class="list-group-item list-group-item border-0">Back End Dev</li>
-          <li class="list-group-item list-group-item border-0"><img src="/images/dot1.png"></li> 
-          <li class="list-group-item list-group-item border-0">2015</li>
-        </ul>
-        <p class="text-primary"> A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-        <ul class="list-group list-group-horizontal" >
-          <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">html</li>
-          <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">css</li>
-          <li class="list-group-item list-group-item bg-muted text-primary m rounded" id="lang">javascript</li>
-        </ul>
-        <button type="button" class="btn btn-outline-primary w-25 m">See project</button>
-
+        </div>
+        <div class="card bg-white">
+          <div class="card-body">
+            <div class="row m no-gutters">
+              <div class="col-md-6 border-0 order-md-2">
+                <img src="/images/job4b.png" class="card-img-top" alt="Job 1" />
+              </div>
+              <div class="col-md-6 border-0">
+                <div class="card border-0">
+                  <h2 class="card-title">Tonic</h2>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item border-0 fw-bolder"
+                    >
+                      CANOPY
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      Back End Dev
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      2015
+                    </li>
+                  </ul>
+                  <p class="text-primary">
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      html
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      css
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      javascript
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-outline-primary w-25 m">
+                    See project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-white m">
+          <div class="card-body">
+            <div class="row m no-gutters">
+              <div class="col-md-6 border-0">
+                <img src="/images/job4b.png" class="card-img-top" alt="Job 1" />
+              </div>
+              <div class="col-md-6 border-0">
+                <div class="card border-0">
+                  <h2 class="card-title">Tonic</h2>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item border-0 fw-bolder"
+                    >
+                      CANOPY
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      Back End Dev
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      2015
+                    </li>
+                  </ul>
+                  <p class="text-primary">
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      html
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      css
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      javascript
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-outline-primary w-25 m">
+                    See project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-white m">
+          <div class="card-body">
+            <div class="row m no-gutters">
+              <div class="col-md-6 border-0 order-md-2">
+                <img src="/images/job4b.png" class="card-img-top" alt="Job 1" />
+              </div>
+              <div class="col-md-6 border-0">
+                <div class="card border-0">
+                  <h2 class="card-title">Tonic</h2>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item border-0 fw-bolder"
+                    >
+                      CANOPY
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      Back End Dev
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      <img src="/images/dot1.png" />
+                    </li>
+                    <li class="list-group-item list-group-item border-0">
+                      2015
+                    </li>
+                  </ul>
+                  <p class="text-primary">
+                    A daily selection of privately personalized reads; no
+                    accounts or sign-ups required.
+                  </p>
+                  <ul class="list-group list-group-horizontal">
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      html
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      css
+                    </li>
+                    <li
+                      class="list-group-item list-group-item bg-muted text-primary m rounded"
+                      id="lang"
+                    >
+                      javascript
+                    </li>
+                  </ul>
+                  <button type="button" class="btn btn-outline-primary w-25 m">
+                    See project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
- </div>
-</div>
-      </div>
-      
-
-      
-      
-      
-
     </div>
-</body>
+  </body>
 </html>
