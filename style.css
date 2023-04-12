@@ -1,8 +1,27 @@
 span {
   color: #1717a1;
 }
-
-body {
+.m{
+    margin: 1em !important;
+    }
+#headline {
   background-image: url("/images/bg-header.png");
   background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-left: 5% 5%;
+  width:90em;
+  height: 50em;
+
+}
+#cards{
+    margin-top: 15px;
+}
+body{
+    background-color: rgb(240, 241, 241);
+}
+ml-2{
+    margin-left: ($headline * .25) !important;
+}
+#lang{
+    background-color: #EBEBFF;
 }
