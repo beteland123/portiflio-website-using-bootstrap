@@ -1,0 +1,26 @@
+{
+  "name": "portiflio-website-using-bootstrap",
+  "version": "1.0.0",
+  "description": "- [:book: About the Project](#about-project)\r   - [:hammer_and_wrench: Built With](#built-with)\r    - [Key Features](#key-features)\r   - [:rocket: Live Demo](#live-demo)\r - [:computer: Getting Started](#getting-started)\r   - [Setup](#setup)\r   - [Prerequisites](#prerequisites)\r   - [Install](#install)\r   - [Run tests](#run-tests)\r   - [Deployment](#triangular_flag_on_post-deployment)\r - [:busts_in_silhouette: Authors](#authors)\r - [:telescope: Future Features](#future-features)\r - [:handshake: Contributing](#contributing)\r - [:star:️ Show your support](#support)\r - [:pray: Acknowledgements](#acknowledgements)\r - [:memo: License](#license)\r # :book: [portiflio-website-using-bootstrap] <a name=\"about-project\"></a>\r > This project is called portiflio-website-using-bootstrap which is developed for the purpose of Designing a prortiflio website and for practicing what we have learned about bootstrap.\r ## :hammer_and_wrench: Built With <a name=\"built-with\"> using Html and CSS</a>\r ### Tech Stack <a name=\"tech-stack\"></a>\r <details>\r   <summary>Version Control</summary>\r   <ul>\r     <li><a href=\"https://github.com/\">Git Hub</a></li>\r   </ul>\r </details>\r <details>\r   <summary>Visual Studio Code</summary>\r   <ul>\r     <li><a href=\"https://code.visualstudio.com\">Visual Studio Code</a></li>\r   </ul>\r </details>\r <details>\r   <summary>Client</summary>\r   <ul>\r     <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">HTML5</a></li>\r     <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a></li>\r     <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript\">JavaScript</a></li>\r     <li><a href=\"https://getbootstrap.com/docs/5.0/getting-started/introduction/\">Bootsrap</a></li>\r   </ul>\r </details>\r ### Key Features <a name=\"key-features\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beteland123/portiflio-website-using-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beteland123/portiflio-website-using-bootstrap/issues"
+  },
+  "homepage": "https://github.com/beteland123/portiflio-website-using-bootstrap#readme",
+  "devDependencies": {
+    "hint": "^7.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
