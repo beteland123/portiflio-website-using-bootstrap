@@ -39,15 +39,22 @@ body{
 .dark-blue{
     color: #344563;
 }
+.light-blue{
+    color: #7F8CFF;
+}
 h1{
     color:  #091E42;
-}
-.lets{
-    color: #7F8CFF;
 }
 .job-color{
     color: #091E42;
 }
 .mr{
     margin-right: 1em;
+}
+.mw{
+    min-width: 80%;
+}
+.img-s{
+    width: 45%;
+    height: auto;
 }
