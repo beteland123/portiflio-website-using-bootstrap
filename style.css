@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    font-family:poppins,sans-serif;
+}
 span {
   color: #1717a1;
 }
 .m{
     margin-bottom: 1em !important;
-    }
+ }
 
 body{
     background-color: rgb(240, 241, 241);
 }
-.mt-5{
-    margin-left: ($spacer * .25) !important;
+.mt{
+    margin-top: 3em;
 }
 #lang{
     background-color: #EBEBFF;
@@ -31,4 +35,19 @@ body{
 }
 .ml{
     margin-left: 10em;
+}
+.dark-blue{
+    color: #344563;
+}
+h1{
+    color:  #091E42;
+}
+.lets{
+    color: #7F8CFF;
+}
+.job-color{
+    color: #091E42;
+}
+.mr{
+    margin-right: 1em;
 }
