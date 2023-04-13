@@ -2,7 +2,7 @@ span {
   color: #1717a1;
 }
 .m{
-    margin: 1em !important;
+    margin-bottom: 1em !important;
     }
 
 body{
@@ -13,4 +13,22 @@ body{
 }
 #lang{
     background-color: #EBEBFF;
+}
+.w-25{
+    max-width: 1.5em;
+}
+.w-50{
+    max-width: 10em;
+}
+.mt-2{
+   margin-top: 15em !important;
+}
+.container-fluid{
+    max-width: 90%;
+}
+.w-65{
+    width: 65%;
+}
+.ml{
+    margin-left: 10em;
 }
